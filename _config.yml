@@ -15,13 +15,13 @@
 #description: Bookmark this to keep an eye on my project updates!
 
 
-theme: jekyll-theme-leap-day
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
-
-#theme: jekyll-theme-merlot
+#theme: jekyll-theme-leap-day
 #title: Octocat's homepage
 #description: Bookmark this to keep an eye on my project updates!
+
+theme: jekyll-theme-merlot
+title: Octocat's homepage
+description: Bookmark this to keep an eye on my project updates!
 
 
 #theme: jekyll-theme-midnight
