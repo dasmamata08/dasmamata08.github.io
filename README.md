@@ -15,7 +15,11 @@
 Hi. This is Mamata Das.
 
 <p align="center">
-<img alt="intro_gif" src="docs/images/tutorial_1.gif"/>
+<img alt="intro_gif" src="docs/images/machineLearning-01.gif"/>
+</p>
+
+<p align="center">
+<img alt="intro_gif" src="docs/images/machineLearning-02.gif"/>
 </p>
 
 # Section
