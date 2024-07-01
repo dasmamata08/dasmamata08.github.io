@@ -15,7 +15,7 @@
 Hi. This is Mamata Das.
 
 <p align="center">
-<img alt="intro_gif" src="docs/images/machineLearning-01.gif" width="200" height="200"/>
+<img alt="intro_gif" src="docs/images/machineLearning-01.gif" width="500" height="200"/>
 </p>
 
 <p align="center">
