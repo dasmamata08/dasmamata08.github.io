@@ -1,12 +1,6 @@
 <p align="center">
 <!-- PYPI_REMOVE -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/images/revup_dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="docs/images/revup_light.svg">
-<!-- /PYPI_REMOVE -->
-  <img alt="Revup" src="docs/images/revup_light.svg"/>
-<!-- PYPI_REMOVE -->
-</picture>
+
 <!-- /PYPI_REMOVE -->
 </p>
 
@@ -18,7 +12,7 @@
 <a href="https://github.com/Skydio/revup/tree/main/LICENSE"><img alt="MIT License" src="https://img.shields.io/pypi/l/revup"/></a>
 </p>
 
-Revup provides command-line tools that allow developers to iterate faster on parallel changes and reduce the overhead of creating and maintaining code reviews.
+Hi. This is Mamata Das.
 
 <p align="center">
 <img alt="intro_gif" src="docs/images/tutorial_1.gif"/>
