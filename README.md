@@ -16,11 +16,18 @@
 
 </p>
 
-Hi. This is Mamata Das.
+Hi. This is Mamata Das.  Run the python code to get my Email ID.
+
+<p align="center">
+<img alt="Email ID" src="docs/images/emailID-python.gif" width="500" height="200"/>
+</p>
+
 
 <p align="center">
 <img alt="intro_gif" src="docs/images/machineLearning-01.gif" width="500" height="200"/>
 </p>
+
+
 
 <p align="center">
 <img alt="intro_gif" src="docs/images/machineLearning-02.gif"/>
