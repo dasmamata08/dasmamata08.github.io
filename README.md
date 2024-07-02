@@ -19,7 +19,7 @@
 Hi. This is Mamata Das.  Run the python code to get my Email ID.
 
 <p align="center">
-<img alt="Email ID" src="docs/images/emailID-python.gif" width="500" height="200"/>
+<img alt="Email ID" src="docs/images/emailID-python.gif" width="1000" height="500"/>
 </p>
 
 
