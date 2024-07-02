@@ -1,120 +1,72 @@
-div
-{
-    border-radius: 5px;
-    }
-#header
-{
-    position: fixed;
-    z-index: 1;
-    height:40px;
-    width: 98%;
-    background-color: #668284;
-    margin-bottom: 10px
-    }
+@import "https://unpkg.com/open-props" layer(design.system);
 
-#name {
-    float:left;
-	margin-left: 20px;
-	padding-bottom: 10px;
-	font-size: 16px;
-	font-family: Verdana, sans-serif;
-	color: #ffffff;
-}
-
-#email{
-    float:right;
-    margin-right: 20px;
-	padding-bottom: 10px;
-	font-size: 16px;
-	font-family: Verdana, sans-serif;
-	color: #ffffff;
-}
-
-#contact
-{
-    margin-left:45%;
-    padding-bottom: 10px;
-	font-size: 16px;
-	font-family: Verdana, sans-serif;
-	color: #ffffff;
-    }
-
-a:hover {
-    font-weight: bold;
-}
-
-.right
-{
-    float: left;
-    margin-top: 50px;
-    padding-left:5px;
-    /*margin-right: -10px;
-    margin-left: 14%;*/
-    height: auto;
-    width: 99%;
-    background-color: #E3EDD8;
-    }
-
-/*.left
-{
-    float: left;
-    margin-top: 50px;
-    /*margin-right: -90px;
-    height: relative;
-    width: 10%;
-    background-color: #4160E8;
-    }*/
+@layer demo {
+  fieldset {
+    grid-template-columns: repeat(5,auto);
     
-#footer
-{
-    height:40px;
-    clear:both;
-    position: relative;
-    background-color: #C1E3E1;
+    @media (prefers-reduced-motion: no-preference) {
+      label {
+        transition:  2s var(--ease-spring-5);
+      }
     }
     
-h3
-{
-    text-decoration: underline;
+    > label {
+      background: var(--_img) 50%/cover;
+      width: 0;
+      min-width: 100%;
     }
+    > label:has(input:checked) {
+      width: 18vw;
+    }
+    > label:has(input:checked) + *
+    /*> label:has(+ label:has(input:checked)) */{
+      width: 8vw;
+    }
+    /* a hacky way to get all the cases*/
+    &:has(label:nth-child(2) > input:checked) label:nth-child(1),
+    &:has(label:nth-child(3) > input:checked) label:nth-child(2),
+    &:has(label:nth-child(4) > input:checked) label:nth-child(3),
+    &:has(label:nth-child(5) > input:checked) label:nth-child(4){
+      width: 8vw;
+    }
+  }
+}
 
-#job-responsibilities
-{
-    padding: 1px;
+@layer demo.support {
+  html {
+    background: var(--gradient-9);
+    block-size: 100%;
+  }
+  
+  body {
+    min-block-size: 100%;
+    display: grid;
+    place-content: center;
+    padding: var(--size-5);
+    gap: var(--size-5);
+  }
+  
+  fieldset {
+    inline-size: 80vw;
+    
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: 50vh;
+    gap: var(--size-3);
+    border: none;
+    
+    > label {
+      cursor: pointer;
+      border-radius: var(--radius-4);
+      
+      &:focus-within {
+        outline: 1px solid Highlight;
+        outline-offset: 5px;
+      }
+      
+      > input {
+        opacity: 0;
+      }
     }
-.job-title
-{
-    font-weight: bold;
-    }
-table
-{
-    border: 1px dashed black;
-    }
-td
-{
-    padding: 2px;
-    border: 1px solid #E88741;
-    }
-
-#course-name
-{
-    font-weight:bold;
-    }
-
-#company-name
-{
-    height:2px;
-    text-decoration:underline;
-    }
-#job-title
-{
-    height: 5px;
-    }
-.job-duration
-{
-    float:right;
-    }
-#heading
-{
-    font-weight:bold;
-    }
+  }
+}
