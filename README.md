@@ -48,8 +48,6 @@ print("@gmail.com")
 <img alt="intro_gif" src="docs/images/machineLearning-02.gif"/>
 </p>
 
-# Section
 
-## sub
 
 This is [my web page](mywebpage/index.html).
