@@ -4,7 +4,7 @@
 
 theme: jekyll-theme-cayman
 title: Hi, I am Mamata Das
-description: Welcome to my homepage. <p style="color:red;">   <a href="https://www.w3schools.com/">Visit W3Schools.com!</a>  </p> 
+description: Welcome to my homepage. <p style="color:red;">   <a href="https://www.w3schools.com/"> style="color:red;"  Visit W3Schools.com!</a>  </p> 
  
 
 #theme: jekyll-theme-dinky
